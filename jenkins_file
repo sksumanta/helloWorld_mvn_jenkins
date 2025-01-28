@@ -14,7 +14,7 @@ pipeline {
                 echo 'Pulling..';
 			    cleanWs()
                 git branch: 'master',
-                credentialsId: '247052cb-45e6-4aee-bda8-979e64994213',
+                credentialsId: '247052cb-e64994213',
 				url: 'https://github.com/sksumanta/helloWorld_mvn_jenkins.git' ;
             
             }
